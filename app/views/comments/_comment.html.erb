@@ -9,3 +9,8 @@
 	  <%= comment.comment %>
 	</p>
 </div>
+<p>
+  <%= link_to 'Destroy Comment', [comment.treasure, comment],
+               method: :delete,
+               data: { confirm: 'Are you sure?' } %>
+</p>
