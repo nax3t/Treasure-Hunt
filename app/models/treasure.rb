@@ -1,7 +1,5 @@
 class Treasure < ActiveRecord::Base
 	has_many :comments
-	validates :title, presence: true,
-	                    length: { minimum: 5 }
-	validates :description, presence: true,
-	                    length: { minimum: 8 }
+	validates :title, presence: true
+	validates :description, presence: true
 end
