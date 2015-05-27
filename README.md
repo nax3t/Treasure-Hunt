@@ -20,4 +20,3 @@ git clone https://github.com/nax3t/Treasure-Hunt
 8. Which view lists all the treasures?
 9. Which attributes belong to treasures? And comments?
 10. Which file displays the attributes for each model?
-
