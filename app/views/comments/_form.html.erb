@@ -1,0 +1,13 @@
+<%= form_for([@treasure, @treasure.comments.build]) do |f| %>
+  <p>
+    <%= f.label :bru %><br>
+    <%= f.text_field :bru %>
+  </p>
+  <p>
+    <%= f.label :comment %><br>
+    <%= f.text_area :comment %>
+  </p>
+  <p>
+    <%= f.submit %>
+  </p>
+<% end %>

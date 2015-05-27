@@ -10,5 +10,8 @@
   <%= @treasure.description %>
 </p>
 
+<h2>Add a comment:</h2>
+<%= render 'comments/form' %>
+
 <%= link_to 'Edit', edit_treasure_path(@treasure) %> |
 <%= link_to 'Back', treasures_path %>
